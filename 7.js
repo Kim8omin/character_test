@@ -2,7 +2,7 @@ function nextPage() {
   if (this.id === "moses") {
     window.location.href = "Moses.html";
   } else if (this.id === "david") {
-    window.location.href = "david.html";
+    window.location.href = "David.html";
   }
 }
 
