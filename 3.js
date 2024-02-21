@@ -1,6 +1,6 @@
 function nextPage() {
   if (this.id === "moses") {
-    window.location.href = "6.html";
+    window.location.href = "7.html";
   } else if (this.id === "david") {
     window.location.href = "6.html";
   }
