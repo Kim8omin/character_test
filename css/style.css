@@ -1,0 +1,79 @@
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background: linear-gradient(90deg, #f0e399, #f7cb79, #FFC0CB);
+  letter-spacing: 0.1cap;
+}
+
+header  {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: row;
+ font-size: 0.4rem;
+ color: white;
+}
+
+body #textLayer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+body h2, body p{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+body h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+body p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+body button {
+  width: 50%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.01);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: transform 0.3s;
+  &:hover {
+    transform: translateY(-5px); 
+}
+}
+
+body footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px 30px;
+
+p{
+  font-size: 0.6rem;
+  color: black;
+  }
+}
+/*# sourceMappingURL=style.css.map */
